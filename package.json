@@ -1,0 +1,19 @@
+{
+  "name": "couponThriftServer",
+  "version": "0.0.1",
+  "description": "优惠券系统ThriftServer",
+  "main": "index.js",
+  "dependencies": {
+    "thrift": "~0.9.1",
+    "mysql": "*"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "coupon",
+    "thrift"
+  ],
+  "author": "yzjia"
+}
