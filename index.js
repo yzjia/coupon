@@ -17,8 +17,8 @@ var consumeCoupon = function(consumeParam, callback) {
 }
 
 var connection = thrift.createServer(couponServices,{
-	queryCoupon: queryCoupon,
-	consumeCoupon: consumeCoupon,
+	queryCoupon: handlers.query,
+	consumeCoupon: handlers.consume,
 	queryProjects: handlers.queryPros
 });
 
